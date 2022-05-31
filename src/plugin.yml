@@ -1,0 +1,17 @@
+name: QuickVoid
+version: 1.0
+main: com.github.inc0grepoz.quickvoid.QuickVoid
+description: A plugin that allows admins to create void worlds without using a plugin implemented chunks generator.
+author: inc0g-repoz
+depend: [Multiverse-Core]
+
+commands:
+  quickvoid:
+    aliases: [qv]
+    descriptions: Reveals plugin functionality
+    permission: quickvoid.admin
+    usage: "Usage: /<command> <create> <world_name>"
+
+permissions:
+  quickvoid.admin:
+    description: Allows you to use /quickvoid command
